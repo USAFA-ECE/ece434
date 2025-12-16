@@ -6,9 +6,9 @@ This schedule is subject to change as appropriate.
 **Last Updated: 16 December 2025**
 
 
-| Lsn | Topic | Reading & Assignment | Homework (CPH Due 0800) | Handouts | Solutions |
-|---:|---|---|---|---|---|
-| 1 | Course Introduction | I&J: Read 1.1–1.3; Skim 1.4–1.8; plus read lesson 1 handouts ⇒ | Skills Development/Review (due Lesson 3); see "Blackboard Assignments" — I&J 1.1, 1.2; install MATLAB | These Handouts should also be on the 434 Teams Site: Syllabus; Calendar; Equation_Sheet_434.pdf; welcome434.m; Class Standards; Barnwell Quote; Academics with Honor Policy; Academic Honor Guidance; Matlab_Tutorial | Lesson 1 |
+| Lsn | Topic | Reading & Assignment | Homework (CPH Due 0800) | Handouts |
+|---:|---|---|---|---|
+| 1 | Course Introduction | <ul><li>I&J: Read 1.1–1.3</li><li>Skim 1.4–1.8</li><li>read lesson 1 handouts ⇒ </li></ul> | <ul><li>Skills Review (due Lesson 3)</li><li>I&J 1.1, 1.2</li><li>install MATLAB</li></ul> | <ul><li>[Syllabus](syllabus.md)</li><li>[Equation Sheet](handouts/Equation_Sheet_434.pdf)</li><li>[welcome434.m](handouts/welcome434.m)</li><li>[welcome434.py](handouts/welcome434.py) </li><li> [handel.mat](handouts/handel.mat) </li><li>[Barnwell Quote](handouts/BarnwellQuote.pdf</li><li>[Matlab_Tutorial](handouts/MIT_Matlab_Tutorial.pdf)</li><li>[Lesson 1 HW solution](handouts/Lesson01HWSolutions.pdf)</li><li>see Teams for I&J readings</li></ul> |  
 | 2 | DT Signals & Systems | I&J 2.1, 2.3; Mitra 2.1, 2.3; lesson2.m | CPH0 | Lesson 2 Worksheet | — |
 | 3 | Sampling, Aliasing, & Reconstruction | I&J 2.3, 2.6; Ziemer 8.2, pp. 350–362; ADC | Skills Development / Review (due 1630) — I&J 2.1, 2.2, 2.5, 2.13 | lesson3.m; sampcos(1).m | Lesson 3 |
 | 4 | ADC: Quantization, Encoding, SNRQ | Ziemer 8.2, pp. 363–366; I&J 2.4 | CPH1 — I&J 2.18, 2.20 | Lesson 4.m; jello.m; quant_r.m; quant_t.m; modulus.m | Lesson 4 |
