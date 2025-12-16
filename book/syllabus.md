@@ -55,14 +55,8 @@ All quizzes, GRs, and the final exam in this class will be closed book. You will
 
 ## Late Work Policy
 - CPH’s must be turned in on time (else a zero if late).  All CPH assignments are due 0800 the day of class. For some flexibility for extenuating circumstances, your lowest CPH grade will be dropped at prog, and the 2nd lowest for the final grade.
-<br>
-- Policy for all other assignments:
--- Late turn-in penalties are:
---- 10%	if by taps on the day it is due 
---- 25%	for the first calendar day
---- 50%	for the second calendar day
---- 75%	for the third calendar day
---- 100%	for four or more calendar day (at this point you get a 0).
+- Late turn-in penalties for all other assignments are:
+<ul><li>10%	if by taps on the day it is due </li><li> 25%	for the first calendar day</li><li> 50%	for the second calendar day</li><li> 75%	for the third calendar day</li><li> 100%	for four or more calendar day (at this point you get a 0).</li></ul> 
 <br>
 - If notified in advance, an instructor can make individual exceptions to this policy or possibly grant extensions.
 <br>
