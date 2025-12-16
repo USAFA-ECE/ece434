@@ -6,49 +6,46 @@ This schedule is subject to change as appropriate.
 **Last Updated: 16 December 2025**
 
 
-| Lsn    | Topic                                               | Reading Assignment   | Homework: default due BOC        | Handouts             |
-|:------:|----------------------------------------------|----------------------|--------------------------|-------------------------------------|
-| 1   | Course Introduction                                    | 1.1 - 1.5            | [Skills Review](skillsreview.md) (due lsn 4) | <ul><li>[L01slides](L01slides.pdf)</li><li>[Syllabus](syllabus.md)</li></ul>              |      
-| 2   | Skill Review Day [Single-Cycle RISC-V architecture]    | [Microarchitecture](skills_review/Microarchitecture.pdf)         | CPH1  | <ul><li>post lesson slides </li><li> [R and I](skills_review/RandI.pdf) </li><li>[Registers](skills_review/Registers.pdf) </li><li>[Branching](skills_review/Branching.pdf) </li><li>[Microarchitecture](skills_review/Microarchitecture.pdf) </li></ul>   |
-| 3   | Trends in Computer Technology                                       | 1.6 - 1.7                                  | CPH2   |   <ul><li>post lesson slides </li></ul>    |
-| 4   | Price vs Performance                                                | 1.8 - 1.9        | [skills Review](skillsreview.md)  |   <ul><li>post lesson slides </li></ul>     |
-| 5   | Performance, Metrics, Benchmarks, Amdahl's Law    | 1.10-1.12; benchmarking articles in CPH4   | CPH4     | <ul><li>post lesson slides </li><li> [SingleNumber](benchmark/PerformanceSingleNumber.pdf) </li><li>[MeasuringPerformance](benchmark/MeasuringPerformance.pdf) </li><li>[BenchmarkDescriptions](benchmark/BenchmarkDescriptions.pdf)  </li></ul>  |           
-| 6   | Metrics and Benchmarks                     | 1.10-1.12; Quiz Today?                   | CPH5                  |   <ul><li>post lesson slides </li></ul>    |
-| 7   | Instruction Set design, memory addressing, operations, operands     | A.1 - A.9    | CPH6                  | <ul><li>post lesson slides </li><li> [CaseforRISC](handouts/CaseforRISC.pdf) </li></ul>     |
-| 8   | CISC vs RISC Debate                        |                                      | CPH7                   | [RISCvsCISCDebate](handouts/RISCvsCISCDebate.docx)  |     
-| 9   | Compiler Technology, RISC-V architecture                            | A.8 - A.9   | Sorry, no CPH8 this year   |   <ul><li>post lesson slides </li></ul>      |  
-| 10  | Pipeline Introduction & Hazards                                     | C.1 - C.5, C.8   | CPH9                  |   <ul><li>post lesson slides </li></ul>      |   
-| 11  | Data Hazards, Control Hazards, Pipeline Implementation, ILP         | C.3 - C.5, C.8, 3.1 | CPH10              | <ul><li>post lesson slides </li><li> [L10_Worksheet](handouts/L10_Worksheet.docx)  </li></ul>   |    
-| 12  | Overcoming Hazards: forwarding and branch fix                       | C.3 - C.5, C.8, 3.1  | CPH11             | <ul><li> [RISCV_Assignment](RISCV_Exercise/RISCV_assignment.md) due lesson 13 </li><li> [L11_Worksheet](handouts/L11_Worksheet.docx)</li></ul> | 
-| 13  | Work on RISC-V Exercise (due lesson 13)                             |                      | CPH12             | [RISCV_Assignment](RISCV_Exercise/RISCV_assignment.md) due lesson 13            |     
-| 14  | Dependencies: Data, Name, Control                                   | C.7, 3.4             | Sorry, no CPH13 this year | <ul><li> [PipelineAndSuperscalar](handouts/PipeliningandSuperscalarExecution.docx) </li><li> [L12_Worksheet](handouts/L12_Worksheet.docx)</li></ul> |       
-| 15  | Overcoming Hazards - Dynamic Scheduling & Tomasulo's Algorithm      | <ul><li> 3.5 </li><li> [Efficient Multiple Arithmetic Units](handouts/MultipleArithmeticUnits.pdf)  </li></ul> | CPH14    | <ul><li>post lesson slides </li><li> [L14_Worksheet](handouts/L14_Worksheet.docx) </li><li> [L15_Worksheet](handouts/L15_Worksheet.docx) </li><li> [TomasuloExample](handouts/TomasuloExample.pdf) </li><li> [AFIT_Tomasulo](handouts/AFIT_Tomasulo.ppt) </li></ul> |                                     
-| 16  | Tomasulo's Algorithm & Dynamic Branch Prediction                    | 3.3, 3.6             | CPH16; Sorry, no CPH15 this year   |  <ul><li>post lesson slides </li></ul>   |   
-| 17  | Branch Target Buffers, Speculation                                  | 3.7 - 3.9, 3.12-3.14, 5.8  | CPH17       | <ul><li>post lesson slides </li><li>[L17_Worksheet](handouts/L17_Worksheet.docx) </li></ul>   |   
-| 18  | GR#1                                                                 |                      |                                    |         |
-| 19  | Final Project Stage1                              |                      |                   |   put link here                           |
-| 20  | Final Project Stage1                              |                      | Final Project Stage 1, due lesson 21  |     put link here                           |
-| 21  | VLIW & Superscalar, SIMD?   | <ul><li> 4.3 </li><li> [MultiscalarProcessors](handouts/MultiscalarProcessors.pdf)  </li></ul> |     | <ul><li>post lesson slides </li></ul> |
-| skip | Data-Level Parallelism in Vector, SIMD, GPU Architectures          | <ul><li> 4.1, 4.2, 4.3, (skim 4.4) </li><li> [MorphologyVLIW_MAP1000](handouts/MorphologyVLIW_MAP1000.pdf)  </li></ul> |   
-| 22  | Memory Hierarchy Design: Cache Memory                               | 2.1, B.1, B.2       | CPH20   | <ul><li>post lesson slides </li><li>[L20_Worksheet](handouts/L20_Worksheet.docx) </li></ul>  |
-| 23  | Memory Hierarchy Design: Cache Memory                               | 2.1, B.1, B.2       | CPH21   | <ul><li>post lesson slides </li><li>[L21_Worksheet](handouts/L21_Worksheet.docx) </li></ul>  |    
-| 24  | Improving Cache Performance; QUIZ TODAY!                            | 2.1, B.1, B.2, B.3, B.4  | CPH22         |   <ul><li>post lesson slides </li></ul>  |
-| 25  | Improving Cache Performance; Main Memory                            | 2.2, B.3, B.4      | CPH25    | <ul><li>post lesson slides </li><li>[L22_Worksheet](handouts/L22_Worksheet.docx) </li></ul>  |
-| 26  | Final Project Stage2                                               |                    |                      |    put link here                           |
-| 27  | Final Project Stage2                                               |                    | Final Project Stage 2, due lesson 27  |     put link here                      |
-| 28  | Virtual Memory                                                      | 2.4                | CPH26                |    <ul><li>post lesson slides </li></ul>     |       
-| 29  | Storage Devices: RAID                                               | D.1 - D.3; skim D.4, D.7 | CPH27          |  <ul><li>post lesson slides </li><li>  [Online Appendice D](handouts/append_d.pdf) </li></ul>         |                           
-| 30  | I/O Interfacing & Performance, Interconnection Networks             | F.1, F.2; skim F.5, F.6  | CPH29          |  <ul><li>post lesson slides </li><li>  [Online Appendice F](handouts/append_f.pdf)  </li></ul>        |     
-| 31  | LAN Topologies, Routers/Gateways, Flynn's Taxonomy; Memory Arch     | F.1, F.2; skim F.5, F.6  | CPH30          | <ul><li>post lesson slides </li><li>[L29 Worksheet](handouts/L29_Worksheet.docx) </li></ul>           |   
-| 32  | Introduction to Multiprocessors                                     | page 10; 5.1             |                | <ul><li>post lesson slides </li><li>[L30 Worksheet](handouts/L30_Worksheet.docx) </li></ul>           | 
-| 33  | Symmetric Shared Memory Architectures                               | 5.2                      | CPH31          | <ul><li>post lesson slides </li><li>[L31 Worksheet](handouts/L31_Worksheet.docx) </li></ul>           | 
-| 34  | Distributed Memory Coherence                                        | 5.4 (maybe 5.5, 5.6)     | CPH32          | <ul><li>post lesson slides </li><li>[L32 Worksheet](handouts/L32_Worksheet.docx)  </li></ul>          |  
-| skip | Clusters, Example: Google Cluster, LAN Example                     | 6.5 - 6.8; L29 Google Arch.pdf  |         | [GoogleArchitecture](handouts/GoogleArchitecture.pdf)   |
-| 35  | GR#2                                                                |                          |                |                                                         |
-| skip | Lead a 6-minute discussion on computing laws <ul><li> Moore's Law </li><li> Metcalfe's Law </li><li> Yules Law </li><li> Hoff' Law </li><li> Evan's Law  </li><li> Law of Digitiplication </li></ul> |    |    |  <ul><li>  [4 new laws beyond Moore's](https://spectrum.ieee.org/on-beyond-moores-law-4-new-laws-of-computing) </li><li> [Myths about AI processors](https://www.electronicdesign.com/technologies/embedded/machine-learning/article/55307254/vsora-11-myths-about-ai-processors) </li></ul>    |  
-| 36  | Final Project Stage3                                               |                          |                |    put link here                  |             
-| 37  | Final Project Stage3                                               |                          | Final Project Stage 3, due lesson 38  |    put link here                  |         
-| 38  | Final Project Stage4                                               |                          |                |    put link here                  |    
-| 39  | Final Project Stage4                                               |                          |                |    put link here                  |
-| 40  | Final Project Quiz (worth 2 quiz grades)                            |                          | Final Project Stage 4, due lesson 40  |    put link here                  |
-
+| Lsn | Topic | Reading & Assignment | Homework (CPH Due 0800) | Handouts | Solutions |
+|---:|---|---|---|---|---|
+| 1 | Course Introduction | I&J: Read 1.1–1.3; Skim 1.4–1.8; plus read lesson 1 handouts ⇒ | Skills Development/Review (due Lesson 3); see "Blackboard Assignments" — I&J 1.1, 1.2; install MATLAB | These Handouts should also be on the 434 Teams Site: Syllabus; Calendar; Equation_Sheet_434.pdf; welcome434.m; Class Standards; Barnwell Quote; Academics with Honor Policy; Academic Honor Guidance; Matlab_Tutorial | Lesson 1 |
+| 2 | DT Signals & Systems | I&J 2.1, 2.3; Mitra 2.1, 2.3; lesson2.m | CPH0 | Lesson 2 Worksheet | — |
+| 3 | Sampling, Aliasing, & Reconstruction | I&J 2.3, 2.6; Ziemer 8.2, pp. 350–362; ADC | Skills Development / Review (due 1630) — I&J 2.1, 2.2, 2.5, 2.13 | lesson3.m; sampcos(1).m | Lesson 3 |
+| 4 | ADC: Quantization, Encoding, SNRQ | Ziemer 8.2, pp. 363–366; I&J 2.4 | CPH1 — I&J 2.18, 2.20 | Lesson 4.m; jello.m; quant_r.m; quant_t.m; modulus.m | Lesson 4 |
+| 5 | ADC/DAC Hardware | I&J 2.7, 2.8; skim 2.9, 2.10 | Problem 2 of 1998 GR; I&J 2.29, 2.10 | 1998 GR Example; Mazim_ADC_Specs | Lesson 5 |
+| 6 | Fourier Analysis of DT Signals | I&J 3.1, 3.2 (skim 3.1.1, 3.1.2); dft_mitra_porat.pdf; ihw5_6.m; lesson6.m; DFT_demo.m | CPH2 — cph2_test_script.m; cph2_lastname.m | I&J 3.8, 3.26; quiz1_2002.pdf | ihw5_6.m; lesson6.m; DFT_demo.m; DFT_Freq_explanation | Lesson 6 |
+| 7 | — | DOWN DAY? | — | — | — |
+| 8 | Discrete Fourier Transform (DFT) and Properties | I&J 3.3, 11.3.1.4; Porat_Zeros.pdf; (This would be a good lesson for a pop-quiz, covering lessons 1–6.) | I&J 3.11; example_problem | freqleak.m; iex5_8.m; Rect-sinc demo | Lesson 7 |
+| 9 | Circular & Linear Convolution | I&J 1.3.1, 3.3, 5.3, Fig 6.7(c); Linear_vs_Circular_Convolution.pdf; Mitra_Circular_Convolution.pdf; Linear_Conv_FFT.pdf; http://www.jhu.edu/~signals/; lesson8.m | CPH3 — I&J 5.13, 5.17 | lesson8.m; Comments on CPH3 | Lesson 8 |
+| 10 | Convolution, part 2... intro to FFT | I&J 3.4, 3.5; z_fft.pdf; More_on_the_FFT.pdf; ziemer_fft.pdf | I&J 3.15, 3.27 | lesson9.m | — |
+| 11 | CPX1, lab day 1 (work on your own; no class) — We will discuss details next lesson, but try to take a stab | I&J 11.1–11.3, 7.5.1; Porat 6.2, 6.3; Mitra_Win.pdf; what_is_wrong_with_this_picture.bmp | CPH4b — CPX1 (due taps lesson M14) | lesson10.m; windemo.m; winuse.m | Lesson 10 |
+| 12 | FFT continued... Spectral Analysis & Windowing | I&J 11.1–11.3, 7.5.1; Porat 6.2, 6.3; Mitra_Win.pdf; what_is_wrong_with_this_picture.bmp | — | I_J_7_5; Rect-sinc demo; window_characteristics; window_charts; window_overlay | — |
+| 13 | Finish lecture on Frequency Measurement and hints on CPX1 | Porat 6.4; skim I&J 11.4, 11.5, 11.7 | In Class Problem | I_J_7_5; Rect-sinc demo; window_characteristics; window_charts; window_overlay | — |
+| 13 | DSP Hardware Lab ⟨== skip this year | DSP Hardware Lab ⟨== skip this year | — | Rect-sinc demo | — |
+| 14 | — | CPX1, lab day 2 | — | — | — |
+| 15 | GR1 | — | — | — | — |
+| 16 | Z-Transform | I&J 4.1, 4.2; lesson15.m; http://lpsa.swarthmore.edu/ZXform/FwdZXform/FwdZXform.html | I&J 4.1 (part 2 and 3) | DSP Handbook on Z Transform; Laplace Transform Table; lesson15(1).m | lesson15 solution |
+| 17 | Z Transform & Region of Convergence (ROC) | I&J 4.2, 4.4; Mitra_z.pdf | CPH6 — I&J 4.12 | winztran.pdf | lesson 16 solution |
+| 18 | Z Transform Properties & Difference Equations (QUIZ 2 today) | I&J 4.3, 4.4; lesson17.m | "Problem for lesson 17.pdf"; I&J 4.11, 4.18 | lesson17.m; problem for lesson 17.pdf; Table of Z Transforms | lesson 17 solution |
+| 19 | Stability & Impulse Response; Difference Equations; Direct Form I | I&J 4.5; lesson18.m; I&J 4.5.8, 4.5.11 & Figure 6.6 (page 329) | CPH7 | lesson 18.m; IJ_fig_414_66.pdf | lesson 18 solution |
+| 20 | Inverse Z-Transform | I&J Chap 4 appendix A–D; in-class quiz (3) !!! | I&J 4.5(2)(a); in-class quiz!!! | IJ_fig_414_66.pdf; partial fraction expansion example,pdf | lesson 19 solution |
+| 21 | DC Response; DF I, II, transposes; ARMA | I&J 6.4.3; Mitra_62.pdf; example_DF_I_to_DFII_transpose.pdf; lesson20.m; ma_demo.m | CPH8 — I&J 4.13; I&J 4.15 | Example_DF_I_DFII_transpose.pdf; lesson20.m; ma_demo.m; mitra_62.pdf; echo_example.m | lesson 20a solution; lesson 20b solution |
+| 22 | DF I & II forms; Digital Filters (vs Analog) | I&J Chap 6; Porat_filters.pdf | CPH9 | porat_filters.pdf | — |
+| 23 | FIR vs IIR; FIR Filter Design (quiz 4 today?) | I&J Chap 6; Porat_filters.pdf; I&J 7.1–7.5; porat_FIRforms.pdf; phasedemo.m | I&J 6.2; QUIZ today? | Gonzalez_Edge_filters.pdf; IJ_6_3.pdf; phasedemo.m; porat_FIRforms.pdf | lesson 22 solution |
+| 24 | FIR Filter Design | I&J 7.1–7.5; porat_FIRforms.pdf; phasedemo.m | CPH10 — I&J 7.1 | See lesson 22 | lesson 23 solution |
+| 25 | FIR Methods (IRT, Windowing, Least Squares) | I&J 7.6, 7.8; skim 7.7, 7.10–7.13, appendix; FIR_wind.pdf | CPH10a — I&J 7.4, 7.28, 7.33 | FIR_wind.pdf; IJ_chap7_pics_v2.pdf | lesson 24 solution |
+| 26 | FIR Methods (Equiripple, FSM, Multiband), IIR Methods (IIT) | I&J 8.1–8.4, 8.91; mitra_multiband.pdf; IIR_filt.pdf; http://www.bores.com/courses/intro/filters/4_equi.htm | CPH11 — I&J 8.22 | IIR_filt.pdf; IJ_butterworth_to_elliptical.pdf; IJ_equiripple_pp368.pdf; lesson25.m; mitra_multiband.pdf | lesson 25 solution; CPH11 questions |
+| 27 | IIR Filter Design | I&J 8.6, 8.8; skim 8.5, 8.7; porat_10.pdf; cx2.bin; CPX2_FAQ.doc | CPX2 (due Taps lesson 31) — I&J 8.2 | CPX2_signals.m; IJ_ITT_bilinear.pdf; porat_10.pdf | lesson 26 solution |
+| 28 | Bilinear Z Transform; fixed vs floating point | I&J 8.9; skim 8.10–8.19; appendix | CPH12 — I&J 8.3, 8.4 | In Class Problem Bilinear Transform | lesson 27 solution; CPH12 questions |
+| 29 | Finite Wordlength Issues; DSP Hardware | I&J 6.4.4; lesson29.m; I&J 7.11, 8.14, 13.1, 13.2.1, 13.2.2; http://www.dspguide.com/ch28/4.htm; I&J 12.1, 12.2, 12.4, 12.5.1 | CPH13 — I&J 8.7; "In Class Problem Bilinear transform.pdf" | lesson 28 worksheet; 1999-morphology on MAP1000-v2.pdf; 2000-jei_journal convolution v2.pdf; DSP_Hardware_chap12.pdf; lesson22.m; lsn28_gain.m; slides_lesson28.pdf | lesson 28 solution |
+| 30 | CPX2 Lab Time | — | — | — | — |
+| 31 | Multirate DSP; upsample; downsample; interpolate; decimate | I&J 9.1, 9.2 | CPH15; CPX2 is Due (Taps lesson M31) | efficient up and downsampling.pdf; IJ_fixed pt_floating pt.pdf; lesson29.m; multirate.pdf; upsample_demo.m; GR2_equations.pdf | — |
+| 32 | GR2 | covering material primarily from Lesson 16 to Lesson 31 | — | — | — |
+| 33 | CPX3: Radar/Sonar Intro | The Final Project and CPX3 are the same thing. sonar_processing_v6.pdf; radar.pdf; cpx3_sonar_v4.zip; beamsteer4_halfwave.m; beamsteer4_3halfwave.m; Delay_Sum_Beams.m; gilbert_report.pdf; sound demo | Start Final Project | Final Project Assignment v6; beamsteer4_3halfwave.m; beamsteer4_halfwave.m; delay_sum_beams.m; Gilbert_report.pdf; radar.pdf; sonar_block_v3.pdf; sonar_data_structures.pdf; sonar_processing_v6; test_data3.docx; TGC Plot; cpx3_sonar_v4.zip; cpx3_matlab_headers_v4.zip | — |
+| 34 | CPX3: Phased Arrays, BeamForming, and Sonar Stages 1–5 | — | CPH14a | — | — |
+| 35 | CPX3: Lab Time (pop-quiz) | — | CPH14b | — | — |
+| 36 | CPX3: Lab Time | — | CPX3 stages 1–5 due COB taps | Grading Criteria stage1_5 | — |
+| 37 | Discuss Sonar Stages 6–11 | edge_filters.pdf | CPH16a | edge_filters | — |
+| 38 | CPX3: Lab Time | — | CPH16b | echo_example | — |
+| 39 | CPX3 Quiz, then Lab time; Work on Presentation | quiz on CPX3 (worth 2 quizzes) | CPX3 stages 6–11 due BOC; study for quiz on CPX3 | Grading Criteria stage6_11 | — |
+| 40 | CPX3: Team Presentations | — | Peer Eval due taps | Presentation Grading Criteria | — |
