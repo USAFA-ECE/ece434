@@ -54,14 +54,7 @@ All quizzes, GRs, and the final exam in this class will be closed book. You will
 
 
 ## Late Work Policy
-- CPH’s must be turned in on time (else a zero if late).  All CPH assignments are due 0800 the day of class. For some flexibility for extenuating circumstances, your lowest CPH grade will be dropped at prog, and the 2nd lowest for the final grade.
-- Late turn-in penalties for all other assignments are:
-<ul><li>10%	if by taps on the day it is due </li><li> 25%	for the first calendar day</li><li> 50%	for the second calendar day</li><li> 75%	for the third calendar day</li><li> 100%	for four or more calendar day (at this point you get a 0).</li></ul> 
-<br>
-- If notified in advance, an instructor can make individual exceptions to this policy or possibly grant extensions.
-<br>
-- Regarding extensions on the CPXs and final project: The schedule for the due dates for these projects is published lesson 1.  Do not expect any extensions.  For example, if going on a trip the week an assignment is due, you are expected to turn it in BEFORE you leave… schedule your time appropriately.
-- All CPX assignments must be turned in – even if more than 4 days late – to avoid a possible course grade of incomplete. 
+<ul><li>CPH’s must be turned in on time (else a zero if late).  All CPH assignments are due 0800 the day of class. For some flexibility for extenuating circumstances, your lowest CPH grade will be dropped at prog, and the 2nd lowest for the final grade.</li><li> Late turn-in penalties for all other assignments are:</li><li> <ul><li>10%	if by taps on the day it is due </li><li> 25%	for the first calendar day</li><li> 50%	for the second calendar day</li><li> 75%	for the third calendar day</li><li> 100%	for four or more calendar day (at this point you get a 0).</li></ul> </li><li> If notified in advance, an instructor can make individual exceptions to this policy or possibly grant extensions.</li><li> Regarding extensions on the CPXs and final project: The schedule for the due dates for these projects is published lesson 1.  Do not expect any extensions.  For example, if going on a trip the week an assignment is due, you are expected to turn it in BEFORE you leave… schedule your time appropriately.</li><li> All CPX assignments must be turned in – even if more than 4 days late – to avoid a possible course grade of incomplete. </li></ul>
 
 
 ## Grading Scale
