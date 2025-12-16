@@ -1,137 +1,76 @@
 # 🚩 Syllabus
 
+Welcome to ECE 434!   This course will introduce the student to the fundamentals of discrete-time signals and systems and use specific applications of digital signal processing to demonstrate these principles. The use of MATLAB is emphasized.
+
 ## Course Goals
-Cadets shall develop the skills to design, implement, test, and debug microcontroller-based systems by developing operational assembly and C language programs that incorporate the built-in microcontroller functions, and by successfully interfacing the microcontroller to the external world.
+Goal: The goal of this course is for all cadets enrolled in the course to develop the ability to analyze, understand and design discrete-time signals and systems and appreciate the role digital signal processing (DSP) plays in modern electronic systems.
 
 ## Course Objectives
 Cadets shall be able to:
-- Utilize the built-in functional units of a specified microcontroller.
-- Write, assemble, link, and run microcontroller code in assembly language.
-- Write, compile, assemble, link, and run microcontroller code in the C programming language.
-- Interpret and explain orally and in writing the functions of a given assembly language or C program as well as laboratory work.
-- Evaluate, analyze, debug, and modify a given program to improve its execution of a specified task.
-- Demonstrate a working knowledge of the on-board hardware components of a microcontroller and implement an interface between a specified microcontroller and other hardware.
-- Demonstrate the ability to solve well and ill-defined problems.
+- Demonstrate an ability to analyze discrete-time signals and systems.
+
+- Design basic discrete-time systems implemented in both hardware and software.
+
+- Use computer-based tools for analysis and synthesis of discrete-time signals and systems.
+
+- Frame and resolve well-defined and ill-defined problems related to DSP topics. 
+
+- Present to an audience in a professional manner well-organized and thoughtful oral or written solutions to various DSP problems, projects, and/or overviews of current DSP topics
+
 
 ## Course Prerequisites
-CS 110 and ECE 281
+- The student must have satisfactorily completed ECE 333 or have permission from the ECE 434 Course Director.
 
-## Course Schedule
-The course schedule is [here](schedule.md)
 
 ## Grade Distribution and Policy
 
 The **Grade distribution** for this course is shown below.
 
-|     Prog                  |             |     Final              |             |
-|---------------------------|-------------|------------------------|-------------|
-|     GRs                   |     22.9%   |     GRs                |     18%     |
-|     Labs                  |     35.9%   |     Labs               |     32%     |
-|   Homework                |     41.2%   |     Homework           |     25%     |
-|                           |             |     Final Project      |     25%     |
-|                           |             |                        |             |
-|     Total                 |     100%    |     Total              |     100%    |
 
-
-```{raw} html
-<style>
-  .chart-container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 1rem;
-    flex-wrap: wrap;
-  }
-  canvas {
-    max-width: 300px;
-    max-height: 300px;
-  }
-</style>
-
-<div class="chart-container">
-  <div>
-    <canvas id="progChart"></canvas>
-  </div>
-  <div>
-    <canvas id="finalChart"></canvas>
-  </div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
-<script>
-  Chart.register(ChartDataLabels);
-
-  const commonOptions = {
-    plugins: {
-      datalabels: {
-        color: '#ffffff',
-        font: {
-          weight: 'bold'
-        },
-        formatter: (value, ctx) => {
-          let label = ctx.chart.data.labels[ctx.dataIndex];
-          return `${label}\n${value}%`;
-        }
-      },
-      tooltip: {
-        enabled: false
-      },
-      legend: {
-        display: false
-      }
-    }
-  };
-
-  new Chart(document.getElementById('progChart'), {
-    type: 'pie',
-    data: {
-      labels: ['GR', 'Labs', 'Homework'],
-      datasets: [{
-        data: [22.9, 35.9, 41.2],
-        backgroundColor: ['#1f77b4', '#ff7f0e', '#2ca02c']
-      }]
-    },
-    options: {
-      ...commonOptions,
-      plugins: {
-        ...commonOptions.plugins,
-        title: {
-          display: true,
-          text: 'Prog Grade Breakdown',
-          color: '#ffffff'
-        }
-      }
-    }
-  });
-
-  new Chart(document.getElementById('finalChart'), {
-    type: 'pie',
-    data: {
-      labels: ['GRs', 'Labs', 'Homework', 'Final Project'],
-      datasets: [{
-        data: [18, 32, 25, 25],
-        backgroundColor: ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
-      }]
-    },
-    options: {
-      ...commonOptions,
-      plugins: {
-        ...commonOptions.plugins,
-        title: {
-          display: true,
-          text: 'Final Grade Breakdown',
-          color: '#ffffff'
-        }
-      }
-    }
-  });
-</script>
-```
+| Category                          | Prog | Final |
+|-----------------------------------|------|-------|
+| GR 1                              | 40%  | 20%   |
+| GR 2                              |      | 20%   |
+| Computer Exercises (CPX1 & 2)     | 20%  | 15%   |
+| Final Project (CPX3)              |      | 25%   |
+| Homework (CPH)                    | 20%  | 15%   |
+| Quizzes / Skills Dev-Review       | 20%  | 5%    |
+| **Total**                         | 100% | 100%  |
 
 
 <br>
 
+This course no longer has a final exam.  The 3rd CPX serves as the final project.
+<br>
+Some computer homework problems (CPH) and all computer exercises (CPX) will use MATLAB; they are designed to help you develop an intuitive understanding of digital signal processing.
+
+<br>
+The CPHs are due approximately every other lesson.  The CPH assignment will be posted on the ECE 434 blackboard website. Most assignments (including MATLAB code) will be turned in via blackboard and are due 0800 the day of class in the format requested. Your computer being down is not an excuse for failing to turn in the assignment.  Find alternative methods (e.g., other computers).  If you have a problem submitting the CPH, then send your answers to your instructor via e-mail.
+<br>
+Each CPX will result in a short report in a format to be specified during the semester, turned in (with your MATLAB code) via e-mail. While these reports will not require extensive writing, they will be graded both on language and technical content.  (The emphasis will be on understanding of DSP principles, MATLAB coding results, and clear communication of ideas.)  CPX3 will be a group project and will include a group presentation.  
+<br>
+All quizzes, GRs, and the final exam in this class will be closed book. You will be able to use the 434 equation sheet.
+<br>
+
+
+## Late Work Policy
+- CPH’s must be turned in on time (else a zero if late).  All CPH assignments are due 0800 the day of class. For some flexibility for extenuating circumstances, your lowest CPH grade will be dropped at prog, and the 2nd lowest for the final grade.
+<br>
+- Policy for all other assignments:
+-- Late turn-in penalties are:
+--- 10%	if by taps on the day it is due 
+--- 25%	for the first calendar day
+--- 50%	for the second calendar day
+--- 75%	for the third calendar day
+--- 100%	for four or more calendar day (at this point you get a 0).
+<br>
+- If notified in advance, an instructor can make individual exceptions to this policy or possibly grant extensions.
+<br>
+- Regarding extensions on the CPXs and final project: The schedule for the due dates for these projects is published lesson 1.  Do not expect any extensions.  For example, if going on a trip the week an assignment is due, you are expected to turn it in BEFORE you leave… schedule your time appropriately.
+- All CPX assignments must be turned in – even if more than 4 days late – to avoid a possible course grade of incomplete. 
+
+
+## Grading Scale
 Electrical and Computer Engineering courses are contract graded using the following 100 point scale.
 <br>
 
@@ -142,103 +81,86 @@ Electrical and Computer Engineering courses are contract graded using the follow
 |                 | 80 <= B- < 83  | 70 <= C- < 73   |               |
 
 
-You must complete all minimum functionalities on labs in order to complete the course.  Even if an assignment is so late that no credit will be received, the assignment must be completed to the satisfaction of the instructor to prevent a grade of “Incomplete.”
-
-## Primary Communication and Control (C2)
-All communication and course material will be provided through a course and section Team. Additionally, videos will be uploaded to a YouTube channel for your convenience. Lastly, Bitbucket will be used for cadets to provide their source code for laboratories.
-
 ## Textbooks
 **Required:**
-[Embedded Systems: Introduction to Robotics](https://www.amazon.com/Embedded-Systems-Introduction-Jonathan-Valvano/dp/1074544307), Johnathan W. Valvano, First Edition, 2019. ISBN: 978-1074544300.
+By lesson 1, each student must have their own copy of:
 
-**GRs are open-book exams and this textbook may be used during GRs.** 
+- Digital Signal Processing, A Practical Approach, 2nd Ed, E. Ifeachor and B. Jervis, Prentice Hall, 2002.
+ 
+## Required Software
 
-**Optional:**
-Embedded Systems: Introduction to the MSP432 Microcontroller (Vol 1), Johnathan W. Valvano, First Edition, 2019. ISBN: 978-1512185676.
+In addition to the text, each student must have their own copy of and be familiar with the following software:
 
-## Collaboration & AI Policy
+- MATLAB, 2014a or later
+- Filter Design Toolbox
 
-Unless specifically directed otherwise, the collaboration policy for this course is:
-
-- For all assignments in this course, unless otherwise noted on the assignment, you may collaborate with any other cadets currently enrolled in ECE 382. We expect all graded work to be in your own work. Copying another person’s work, with or without documentation, will result in NO academic credit. Furthermore, copying without attribution is dishonorable and will be dealt with as an honor code violation.
-- GRs are individual efforts. No collaboration is allowed while taking these exams. All electronic devices (phones, smartwatches, computers, tablets, etc.) must be placed out of sight for the duration of the event. If any electronic device is seen during the event, the student will receive a zero for that effort. 
-- Authorized resources include any material from the ECE 382 course site and online sources regarding C programming syntax only. This does not include any solutions or solution stubs for challenges similar to those asked in any assignments.
-- AI usage is limited to Level 3.  Level 3 is defined as "Use of GenAI as a feedback tool on student-generated work. Cadets create their own work independently, then may use GenAI as a tool to get feedback about their draft, such as suggestions for improvement, clarification, alignment with the assignment instructions, or editing tips. Cadets are expected to make their own revisions based on this feedback; the submitted work should not include GenAI-generated text. This use of GenAI should be clearly communicated in their documentation statements."  This means you must write your own code but can ask an AI model for clarification, conceptual questions, and debugging help.  You should not have the AI model write the solution for you and should put language in your prompt that asks the AI to not write the code for you.  You must provide your instructor with a transcript of your conversation.
-
-## Documentation Requirements
-
-**Documentation Requirements**: You must document all help received from any sources other than your instructor or instructor-provided course materials (including your textbook). 
-- Each documentation statement must be specific enough to explicitly describe what assistance was provided, how it was used to complete the assignment, and who provided the assistance.
-- If no help was received on this assignment, the documentation statement must state “None.”
-- If you checked answers with anyone, you must document with whom on which problems. You must document whether you made any changes or not.  If you did make changes, you must document the problems you changed and the reasons why.
-- Vague documentation statements will result in a 5% deduction on the assignment.
-
-### Sample Documentation 
-Consider the following examples when writing your own detailed documentation statements:
-
-**Bad Example**:  Cadet McFly explained how the factorial worked.
-<br>
-**Good Example**: Cadet McFly explained how a recursive function worked conceptually, using diagrams and the assignment materials. He did not look at my code nor did I look at his code during this discussion.
-
-**Bad Example**: : Cadet McFly helped fix my factorial() method.
-<br>
-**Good Example**: Cadet McFly helped fix my factorial() method by looking at my code** and finding that I had n > 0 instead of n >= 0 on line 85. _Note: A situation such as this may result in **less than full credit for the factorial() method, but due to the documentation statement there is no violation of the honor code._
-
-**Bad Example**: : Cadet McFly and I worked together on the factorial() method.
-<br>
-**Good Example**: Cadet McFly and I worked together on the factorial() method, each contributing equally to its development. Prior to this help, neither of our factorial() methods was working. My factorial() method is now nearly identical to Cadet McFly's factorial() method. _Note: In a situation such as this, at most half-credit would be earned for the factorial() method, but due to the documentation statement there is no violation of the honor code._
-
-**Bad Example**: : Cadet McFly showed me how the factorial() method works.
-<br>
-**Good Example**: Cadet McFly showed me how the factorial() method works by letting me look at his code. Prior to this help, my own factorial() method was not working.  My factorial() method is now nearly identical to Cadet McFly's factorial() method. _Note: In a situation such as this, no points would be earned for the factorial() method, but due to the documentation statement there is no violation of the honor code._
-
-**Bad Example**: : Cadet McFly showed me how the factorial() method works.
-<br>
-**Good Example**: Cadet McFly showed me how the factorial() method works by looking at my code and talking me through each line as I wrote it. Prior to this help my own factorial() method was wrong.  My factorial() method is now nearly identical to Cadet McFly's factorial() method. _Note: In a situation such as this, no points would be earned for the factorial() method, but due to the documentation statement there is no violation of the honor code._
+You cannot work through many of the ECE 434 assignments if you don't have this software!  
 
 ## Extra Instruction (EI)
 
-Schedule EI with an instructor if you are having difficulty with the course material.  You must have read the assignment and attempted the homework before requesting EI.  Note:  You are responsible for material if you miss class, so get notes from someone in your section.  For example, you miss the lesson where the instructor announces a quiz for the next lesson or the instructor assigns homework due next lesson.  Even though you missed the lesson, you are still responsible for the quiz, homework, or any other assignments made.  It is in your best interest to check with your classmates after an absence.  After you’ve read the assignment, attempted the homework, and checked with your classmates, you may then schedule EI if you have difficulty with the material—not to make up a class you missed.
+If you've read the material, attempted the problems, asked your classmates for help, yet still have difficulty understanding the concepts, seek EI from an ECE434 professor. Make an appointment via e-mail (or the booking app), with a description of your difficulties. Be prepared during EI to intelligently discuss your difficulties and your attempts to overcome them. Note: EI is not a time to “catch-up” on something you missed through inattention or an absence.
 
-## CAS Policy  
-For CAS notification, email your instructor prior to your absence and include the lesson number, the date, and the reason (descriptive reason—don’t just send a CAS code or SCA number) as soon as possible, preferably before the absence occurs.  It is your responsibility to check your SCA to see if instructor permission is required.  If it is, you must make the request prior to your absence.  If you miss class, you are responsible for all material (e.g. assignments, notes, announcements, handouts, etc.) covered in class.  Please check with another cadet in your section to find out what you missed.  
+## CAS Policy
 
-When a cadet is absent on the day that an assignment is due, or on the date of a quiz or GR, the cadet is responsible for meeting the following standards: 
-- Scheduled Absence: If a cadet will miss any graded event due to a scheduled absence such as an SCA, sport team trip, or scheduled lasik surgery, the cadet is expected to complete all work BEFORE the absence.  
-- Unscheduled Absence: If a cadet misses a graded event for an unscheduled reason such as AOC approved bedrest or a family emergency, the cadet must complete all work on the first full class day that they return to duty in order to avoid a late penalty.  For example, if a cadet is on AOC bedrest for a GR on M17 and can return to duty on T17 or M18, the cadet is expected to make up the work by M18.
-- Unique Circumstances: For circumstances that do not fall under either of these broad categories (e.g. concussion protocol), the cadet is expected to communicate early and often with the instructor.  The instructor and course director will work with the cadet on a course of action.
+If at all possible, absences must be coordinated ahead of time.  Be sure to check your
+SCA to see if instructor “Notification” or “Permission” is required.  There is a difference!
+If it’s “permission” you need, be sure to ask as soon as you know you need it.  Email or Teams
+is the preferred method of communication for CAS.  Be sure to include the lesson
+number along with the reason for your absence.  
 
-## Late Work Policy
-All work is due as shown on Gradescope. If problems arise with graded assignments, see your instructor in advance. 
-- The cutoff for on-time submission is 0700 on the due date. 
-- Late days are counted in 24-hour periods. Submitting between 07:00:01 on the due date and 07:00:00 the next day is one day late, and so on.
-- You are given 5 grace days (self-granted extensions) which you can use to give yourself extra time without penalty. No more than 2 grace days can used for each assignment.
-- Instructor-granted extensions are only considered after all grace days are used and only given in exceptional situations. Computer problems such as hard-drive reimaging are not considered as exceptional situations and you must use grace days.
-- Late work handed in when you have run out of grace is discounted up to 20% for the first day late and up to 15% per day late thereafter.
-- Every assignment has a hard deadline; 4 calendar days past the original due date. 
-- Late submissions (penalty or not) are not accepted after the hard deadline or after the solution to the assignment is published. No late submissions (penalty or not) will be accepted for the assignments right before GRs.
+## Collaboration Policy and Generative AI Policy
+
+- Use of Generative AI (like ChatGPT) is prohibited for this class, except for specific assignments where it is allowed by your instructor.
+
+- To solve homework (CPH), the only authorized resource is your textbook and other class notes provided on the course Blackboard or Team’s site. You may work with any other cadet. For CPHs requiring MATLAB, the only additional online source you are allowed to use is the MathWorks website.
+
+- The skills review and the first two computer exercises (CPX) are individual effort. For CPXs, the only online source you are allowed to use is the MathWorks website. See Academics With Honor and the individual assignments for further guidance. 
+
+- As always, you may not simply copy another person's assignment – the actual item turned-in must be your own work.  To receive academic credit, you should be able to explain how any of the code you turn in works.  
+
+- For all assignments you must document any help you receive.  If you receive no assistance on an exercise, the use of the Documentation: None statement is mandatory.
+
+## Graded Evaluations  
+- These include the quizzes and the GRs.  Primary sources for questions include the textbook, information presented in class, handouts, and homework problems.
+
+- You must notify your instructor one lesson in advance to schedule a make-up if you anticipate missing any scheduled graded evaluation or assigment turn-in.  Schedule makeup exams or extension beforehand!
+
+-  The course equation sheet will  be provided on the GRs:  [Equation Sheet](handouts/Equation_Sheet_434.pdf)
 
 
-## Assignments
-Assignments and due dates are included in Gradescope.
 
-## Exams and Quizzes  
-GRs are open-book exams. Cadets may bring in the following items 
-- Textbook: Embedded Systems: Introduction to Robotics
-- One-page handwritten letter-size note
-- Printed copy of GR Reference Guide (PDF version is located in Teams under Files > Admin) 
+## Course Overview
 
-Testable material includes any concepts from the labs, lectures, exercises, homework, and assigned readings.  Not all testable concepts will necessarily be covered in class (e.g., readings).
+The course schedule is [here](schedule.md). This course covers material which will prepare you to deal competently with the ever-increasing prevalence of digital signals, digital systems, and digital signal processing (DSP). The emphasis in ECE 434 is on fundamental principles and practical applications, rather than esoteric theory or arcane derivations.
+<br>
+For the student who wishes to specialize in DSP or image processing; these are two very hot fields both in and out of the Air Force today and in the foreseeable future.  ECE 434 lays the foundation for those more in-depth DSP and image processing courses you'll need to take later in graduate school.
 
-For missed GRs, the following policies are outlined in USAFA FOI 537-3:
-- Scheduled Absence - If you know that you will be unable to take the GR during the scheduled GR period, you are required to inform your instructor as soon as possible before the GR and to schedule a make-up exam.
-- Unscheduled Absence - If you miss the GR for reasons beyond your control (e.g. hospitalization, emergency leave, delayed field trip return, etc.), you must contact DFEC (x3190) within two working days to schedule a makeup.  Exceptions can only be granted by the Department Head.
+## Professional Engineer
 
-## Laboratories
-Labs are held in 2E48, but may include a prelab assignment that must be done before coming to class.  The labs tend to be very hardware/software intensive and will probably require debugging to isolate and fix problems.  In-class time is your primary chance to get active help for these problems so the more you prepare outside of class, the more successful you’ll be.  The 53 minutes go by extremely fast - don’t waste them!
+Now that most of you are seniors in an ECE major, we expect you to turn in assignments in a professional manner expected of engineers. For example, when you turn in a plot, it should have a proper title and the axis’ should have proper labels with proper units, etc.
 
-## Final Project
-The final project will be a culmination of the learned material and will include a robot maze and competition. The final project will include a formal laboratory write-up, demos, and seven-minute design presentation. The final project is worth 25% of your final grade.
+## ECE434 should be fun!
 
-## Miscellaneous
-This course is designed to help in your development as an engineer.  Feel free to provide feedback on the lessons and labs at any time.  If you have ideas to improve or enhance the course, please let me know.  The class builds on concepts from the prerequisites, so it is important for you to seek help as soon as you need it.  Procrastination is truly the enemy in a design course.  A little foresight and planning and a lot of effort will result in an extremely rewarding experience serving as the basis for future microprocessor design work.
+DSP can be an enjoyable topic in ECE, if you put forth a reasonable amount of effort. By using MATLAB, many aspects of discrete-time systems and DSP can be explored without the drudgery of the past (when we had to program everything in FORTRAN, C, or assembly language).  Therefore, MATLAB is emphasized heavily in this course. 
+<br>
+If you are rusty or lack confidence using MATLAB, practice now (see examples in your text book); there won't be time later in the semester.  Similarly, if you're not comfortable with some of the basic ECE topics such as Fourier transforms, Laplace transforms, impulse response, transfer functions, convolution, etc., review these topics now; we won't have time to re-teach them in depth in ECE 434. These topics will be part of the Skills Review assignment.
+
+## ECE434 and Other Courses
+
+For those of you who are also taking ECE 447 this semester, we have made every effort to coordinate the two courses so that the sequence of topics and graded events complement, rather than compete with, each other.
+<br>
+Because digital communications rely heavily on DSP, and nearly all military and civilian communications (ground, airborne, and satellite) are or will soon be digital, it is important that these two courses are synergistic. DSP is also used in many other areas such as music recording, image processing, simulations, speech recognition, radar, sonar, geophysics, oceanography, and astrophysics.  It's also used in equipment such as CD players, DVD players, digital tuners, satellite TV, cellular phones, as well as most of the special effects you see and hear in movies.
+<br>
+Thus, learning about the basics of discrete-time systems and DSP will help all electrical and computer engineers.  This course, ECE 434, is your opportunity to find out about it!
+<br>
+Finally, here are some quotes that convey some thoughts that may guide you to success throughout your career in the Air Force and beyond.  I hope they inspire you in a positive manner:
+
+- *There comes a time in every man's life when he is called upon to do something very special for which he and he alone has the capabilities, has the skills, and has the necessary training. What a pity if the moment finds the man unprepared.*           --- Winston Churchill
+
+- *That which does not kill us makes us stronger.*        --- Friedrich Nietzsche
+
+- *No one said it would be easy, But no one said it would be this hard… and no one thought we’d come this far.*        --- Sheryl Crow
+
+
+
+
