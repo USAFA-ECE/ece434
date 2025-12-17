@@ -6,5 +6,10 @@ root: intro
 parts:
   - caption: Course Info
     chapters:
-      - file: syllabus
-      - file: schedule
+      - file: DSP_HW_lab.md
+      - file: CPX1.md
+      - file: CPX2.md
+      - file: finalproject_stages1_5.md
+      - file: finalproject_stages6_11.md
+      - file: finalpresentation.md
+      
