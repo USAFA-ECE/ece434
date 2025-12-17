@@ -6,10 +6,14 @@ root: intro
 parts:
   - caption: Course Info
     chapters:
-      - file: DSP_HW_lab.md
-      - file: CPX1.md
-      - file: CPX2.md
-      - file: finalproject_stages1_5.md
-      - file: finalproject_stages6_11.md
-      - file: finalpresentation.md
+      - file: syllabus
+      - file: schedule
+  - caption: Assignments (also see blackboard and teams)
+    chapters:
+      - file: assignment/DSP_HW_lab
+      - file: assignment/CPX1
+      - file: assignment/CPX2
+      - file: assignment/finalproject_stages1_5
+      - file: assignment/finalproject_stages6_11
+      - file: assignment/finalpresentation
       
