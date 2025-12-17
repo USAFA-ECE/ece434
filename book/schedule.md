@@ -20,7 +20,7 @@ This schedule is subject to change as appropriate.
 | 10 | FFT continued... Spectral Analysis & Windowing | <ul><li>I&J 11.1–11.3, 7.5.1</li><li>Porat 6.2, 6.3</li></ul> | CPH4b | <ul><li>I_J_7_5</li><li>[Rect-sinc demo](handouts/Rect-SincDemoV3.pptx)</li><li>[window_characteristics](hadnouts/window_characteristics.pdf)</li><li>[window_charts](handouts/window_charts.pdf)</li><li>[window_overlay](window_overlay.pdf) </li><li>[Lsn  10HW solution](handouts/Lesson10HWSolutions.pdf)</li><li>see Teams for Porat</li></ul>  |
 | 11 | CPX1 lab day 1  | — |  CPX1 (due taps lesson M14) | <ul><li>[lesson10.m](handouts/lesson10.m)</li><li>[windemo.m](handouts/windemo.m)</li><li>[winuse.m](handouts/winuse.m)</li><li>[lesson10.py](handouts/lesson10.py)</li><li>[windemo.py](handouts/windemo.py)</li><li>[winuse.py](handouts/winuse.py)</li><li>[win_ana2.py](handouts/win_ana2.py)</li></ul> | 
 | 12 | Finish lecture on Frequency Measurement and hints on CPX1 | Porat 6.4; skim I&J 11.4, 11.5, 11.7 | In Class Problem | I_J_7_5; Rect-sinc demo; window_characteristics; window_charts; window_overlay | — |
-| 13 | DSP Hardware Lab  | DSP Hardware Labv | — | Rect-sinc demo | — |
+| 13 | DSP Hardware Lab  | [DSP Hardware Lab](assignment/DSP_HW_Lab.md) | — | — |
 | 14 | — | CPX1, lab day 2 | — | — | — |
 | 15 | GR1 | — | — | — | — |
 | 16 | Z-Transform | I&J 4.1, 4.2; lesson15.m; http://lpsa.swarthmore.edu/ZXform/FwdZXform/FwdZXform.html | I&J 4.1 (part 2 and 3) | DSP Handbook on Z Transform; Laplace Transform Table; lesson15(1).m | lesson15 solution |
