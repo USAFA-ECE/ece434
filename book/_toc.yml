@@ -9,7 +9,4 @@ parts:
       - file: syllabus
       - file: schedule
   - caption: Assignments (also see blackboard and gradescope)
-    chapters:
-      - file: markdown
-      - file: notebooks
-      - file: markdown-notebooks
+
