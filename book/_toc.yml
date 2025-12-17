@@ -9,4 +9,6 @@ parts:
       - file: syllabus
       - file: schedule
   - caption: Assignments (also see blackboard and gradescope)
+      - file: syllabus
+      - file: schedule
 
