@@ -1,3 +1,3 @@
 # Final Presentation
 
-- [rubric](Final_Presentation_Grading_Criteria.pdf)
+- [rubric](Final_presentation_grading_criteria.pdf)
