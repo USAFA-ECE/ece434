@@ -1,7 +1,7 @@
 # Final Project, Stage 1 to 5
 - CPX3 and the Final Project are the same thing.
 # Assignment
-- [Final Project Assignment](Final_Project_assignment_v7.pdf) Stages 1-5 due taps lesson 36.]
+- [Final Project Assignment](Final_Project_assignment_v7.pdf) Stages 1-5 due taps lesson 36.
 - [Sonar Processing Reading](sonar_processing_v7.pdf)
 - [Sonar Processing Block Diagram](sonar_block_v4.pdf)
 - [Sonar Processing Data Structures](sonar_data_structures.pdf)
