@@ -40,11 +40,11 @@ This schedule is subject to change as appropriate.
 | 30 | CPX2 Lab Time | — | [CPX2 assignment](assignment/CPX2.md) (due Taps lesson 31) | — | 
 | 31 | Multirate DSP<ul><li>upsample</li><li>downsample</li><li>interpolate</li><li>decimate</li></ul> | I&J 9.1, 9.2 | <ul><li>CPH15</li><li>[CPX2 assignment](assignment/CPX2.md) (due Taps lesson 31)</li></ul> | <ul><li>[efficient up and downsampling](efficientupanddownsampling.pdf)</li><li>I&J fixed pt floating pt</li><li>[lesson29.m](handouts/lesson29.m)</li><li>multirate</li><li>[upsample_demo.m](handouts/upsample_demo.m)</li><li>[upsample_demo.py](handouts/upsample_demo.py)</li><li>[GR2_equations](handouts/GR2_equations.pdf)</li></ul> | 
 | 32 | GR2 | covering material primarily from Lesson 16 to Lesson 31 | — | [GR2_equations](handouts/GR2_equations.pdf) | 
-| 33 | Final Project: Radar/Sonar Intro | <ul><li>[Read Assignment, etc](assignment/finalproject_stages1_5.md)</li><li>[sound demo](https://phet.colorado.edu/en/simulations/sound-waves/about)</li></ul> | <ul><li>Start Final Project</li><li>stages 1-5 due taps lesson 36 | — |
-| 34 | Final Project: <ul><li>Phased Arrays</li><li>BeamForming</li><li>Sonar Stages 1–5</li></ul> | — | CPH14a | — |
-| 35 | CPX3: Lab Time (pop-quiz) | — | CPH14b | — | — |
-| 36 | CPX3: Lab Time | — | CPX3 stages 1–5 due COB taps | Grading Criteria stage1_5 | — |
-| 37 | Discuss Sonar Stages 6–11 | edge_filters.pdf | CPH16a | edge_filters | — |
-| 38 | CPX3: Lab Time | — | CPH16b | echo_example | — |
-| 39 | CPX3 Quiz, then Lab time; Work on Presentation | quiz on CPX3 (worth 2 quizzes) | CPX3 stages 6–11 due BOC; study for quiz on CPX3 | Grading Criteria stage6_11 | — |
-| 40 | CPX3: Team Presentations | — | Peer Eval due taps | Presentation Grading Criteria | — |
+| 33 | Final Project: Radar/Sonar Intro | <ul><li>[Read Final Project Assignment, etc](assignment/finalproject_stages1_5.md)</li><li>[sound demo](https://phet.colorado.edu/en/simulations/sound-waves/about)</li></ul> | <ul><li>Start Final Project</li><li>stages 1-5 due taps lesson 36 | — |
+| 34 | Final Project: <ul><li>Phased Arrays</li><li>BeamForming</li><li>Sonar Stages 1–5</li></ul> | [Final Project Stages 1-5](assignment/finalproject_stages1_5.md) | CPH14a | — |
+| 35 | <ul><li>Final Project: Lab Time</li><li>pop-quiz</li></ul> | — | CPH14b | — |
+| 36 | Final Project: Lab Time | — | stages 1–5 due COB taps | [Final Project Stages 1-5](assignment/finalproject_stages1_5.md) | 
+| 37 | Discuss Sonar Stages 6–11 | edge_filters.pdf | CPH16a | edge_filters | 
+| 38 | CPX3: Lab Time | — | CPH16b | echo_example |
+| 39 | CPX3 Quiz, then Lab time; Work on Presentation | quiz on CPX3 (worth 2 quizzes) | CPX3 stages 6–11 due BOC; study for quiz on CPX3 | Grading Criteria stage6_11 | 
+| 40 | CPX3: Team Presentations | — | Peer Eval due taps | Presentation Grading Criteria |
