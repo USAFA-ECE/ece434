@@ -40,11 +40,11 @@ This schedule is subject to change as appropriate.
 | 30 | CPX2 Lab Time | — | [CPX2 assignment](assignment/CPX2.md) (due Taps lesson 31) | — | 
 | 31 | Multirate DSP<ul><li>upsample</li><li>downsample</li><li>interpolate</li><li>decimate</li></ul> | I&J 9.1, 9.2 | <ul><li>CPH15</li><li>[CPX2 assignment](assignment/CPX2.md) (due Taps lesson 31)</li></ul> | <ul><li>[efficient up and downsampling](efficientupanddownsampling.pdf)</li><li>I&J fixed pt floating pt</li><li>[lesson29.m](handouts/lesson29.m)</li><li>multirate</li><li>[upsample_demo.m](handouts/upsample_demo.m)</li><li>[upsample_demo.py](handouts/upsample_demo.py)</li><li>[GR2_equations](handouts/GR2_equations.pdf)</li></ul> | 
 | 32 | GR2 | covering material primarily from Lesson 16 to Lesson 31 | — | [GR2_equations](handouts/GR2_equations.pdf) | 
-| 33 | Final Project: Radar/Sonar Intro | <ul><li>[Read Final Project Assignment, etc](assignment/finalproject_stages1_5.md)</li><li>[sound demo](https://phet.colorado.edu/en/simulations/sound-waves/about)</li></ul> | <ul><li>Start Final Project</li><li>stages 1-5 due taps lesson 36 | — |
+| 33 | Final Project: Radar/Sonar Intro | <ul><li>[Read Final Project Assignment, etc](assignment/finalproject_stages1_5.md)</li><li>[sound demo](https://phet.colorado.edu/en/simulations/sound-waves/about)</li></ul> | <ul><li>Start Final Project</li><li>stages 1-5 due taps lesson 36 | [lesson 32 notetaker](L32-notetaker.pdf) |
 | 34 | Final Project: <ul><li>Phased Arrays</li><li>BeamForming</li><li>Sonar Stages 1–5</li></ul> | [Final Project Stages 1-5](assignment/finalproject_stages1_5.md) | CPH14a | — |
 | 35 | <ul><li>Final Project: Lab Time</li><li>pop-quiz</li></ul> | — | CPH14b | — |
 | 36 | Final Project: Lab Time | — | stages 1–5 due COB taps | [Final Project Stages 1-5](assignment/finalproject_stages1_5.md) | 
-| 37 | Discuss Sonar Stages 6–11 | edge_filters.pdf | CPH16a | edge_filters | 
-| 38 | CPX3: Lab Time | — | CPH16b | echo_example |
-| 39 | CPX3 Quiz, then Lab time; Work on Presentation | quiz on CPX3 (worth 2 quizzes) | CPX3 stages 6–11 due BOC; study for quiz on CPX3 | Grading Criteria stage6_11 | 
-| 40 | CPX3: Team Presentations | — | Peer Eval due taps | Presentation Grading Criteria |
+| 37 | Discuss Sonar Stages 6–11 | [Final Project Stages 6-11](assignment/finalproject_stages6_11.md) | <ul><li>CPH16a</li><li>stages 6-11 due BOC lesson 39</li></ul> | [lesson 36 notetaker](L36-notetaker.pdf) | 
+| 38 | Final Project: Lab Time | — | CPH16b | — |
+| 39 | <ul><li>Final Project Quiz</li><li>Lab time</li><li>Work on Presentation</li></ul> | quiz on overall Final Project (worth 2 quizzes) | <ul><li>Final Project stages 6–11 due BOC</li><li>study for quiz</li></ul> | — | 
+| 40 | Final Project: Team Presentations | — | Peer Eval due taps (on blackboard) | [Presentation Grading Criteria](assignment/Final_presentation_grading_criteria.pdf) |
