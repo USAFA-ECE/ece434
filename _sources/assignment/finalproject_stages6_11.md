@@ -5,7 +5,7 @@
 - [Sonar Processing Reading](sonar_processing_v7.pdf)
 - [Sonar Processing Block Diagram](sonar_block_v4.pdf)
 - [Sonar Processing Data Structures](sonar_data_structures.pdf)
-- [Rubric for Stages 6-11](FInal_Project_Grading_Criteria_stage6_11_v3.pdf)
+- [Rubric for Stages 6-11](Final_Project_Grading_Criteria_stage6_11_v3.pdf)
 
 # Data for multiple images (test_data3), needed for persistence and tracking
 - [Info on using test_data3](test_data3.doc)
