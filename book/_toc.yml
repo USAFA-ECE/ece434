@@ -8,7 +8,7 @@ parts:
     chapters:
       - file: syllabus
       - file: schedule
-  - caption: Assignments (also see blackboard and teams)
+  - caption: Assignments (also see blackboard and teams )
     chapters:
       - file: assignment/DSP_HW_lab
       - file: assignment/CPX1
