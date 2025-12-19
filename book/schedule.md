@@ -40,8 +40,8 @@ This schedule is subject to change as appropriate.
 | 30 | CPX2 Lab Time | — | [CPX2 assignment](assignment/CPX2.md) (due Taps lesson 31) | — | 
 | 31 | Multirate DSP<ul><li>upsample</li><li>downsample</li><li>interpolate</li><li>decimate</li></ul> | I&J 9.1, 9.2 | <ul><li>CPH15</li><li>[CPX2 assignment](assignment/CPX2.md) (due Taps lesson 31)</li></ul> | <ul><li>[efficient up and downsampling](efficientupanddownsampling.pdf)</li><li>I&J fixed pt floating pt</li><li>[lesson29.m](handouts/lesson29.m)</li><li>multirate</li><li>[upsample_demo.m](handouts/upsample_demo.m)</li><li>[upsample_demo.py](handouts/upsample_demo.py)</li><li>[GR2_equations](handouts/GR2_equations.pdf)</li></ul> | 
 | 32 | GR2 | covering material primarily from Lesson 16 to Lesson 31 | — | [GR2_equations](handouts/GR2_equations.pdf) | 
-| 33 | CPX3: Radar/Sonar Intro | The Final Project and CPX3 are the same thing. sonar_processing_v6.pdf; radar.pdf; cpx3_sonar_v4.zip; beamsteer4_halfwave.m; beamsteer4_3halfwave.m; Delay_Sum_Beams.m; gilbert_report.pdf; sound demo | Start Final Project | Final Project Assignment v6; beamsteer4_3halfwave.m; beamsteer4_halfwave.m; delay_sum_beams.m; Gilbert_report.pdf; radar.pdf; sonar_block_v3.pdf; sonar_data_structures.pdf; sonar_processing_v6; test_data3.docx; TGC Plot; cpx3_sonar_v4.zip; cpx3_matlab_headers_v4.zip | — |
-| 34 | CPX3: Phased Arrays, BeamForming, and Sonar Stages 1–5 | — | CPH14a | — | — |
+| 33 | Final Project: Radar/Sonar Intro | <ul><li>[Read Assignment, etc](assignment/finalproject_stages1_5.md)</li><li>[sound demo](https://phet.colorado.edu/en/simulations/sound-waves/about)</li></ul> | <ul><li>Start Final Project</li><li>stages 1-5 due taps lesson 36 | — |
+| 34 | Final Project: <ul><li>Phased Arrays</li><li>BeamForming</li><li>Sonar Stages 1–5</li></ul> | — | CPH14a | — |
 | 35 | CPX3: Lab Time (pop-quiz) | — | CPH14b | — | — |
 | 36 | CPX3: Lab Time | — | CPX3 stages 1–5 due COB taps | Grading Criteria stage1_5 | — |
 | 37 | Discuss Sonar Stages 6–11 | edge_filters.pdf | CPH16a | edge_filters | — |
