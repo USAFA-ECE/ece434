@@ -43,7 +43,7 @@ This schedule is subject to change as appropriate.
 | 33 | Final Project: Radar/Sonar Intro | <ul><li>[Read Final Project Assignment, etc](assignment/finalproject_stages1_5.md)</li><li>[sound demo](https://phet.colorado.edu/en/simulations/sound-waves/about)</li></ul> | <ul><li>Start Final Project</li><li>stages 1-5 due taps lesson M37 | [lesson 32 notetaker](L32-notetaker.pdf) |
 | 34 | Final Project: <ul><li>Phased Arrays</li><li>BeamForming</li><li>Sonar Stages 1–5</li></ul> | [Final Project Stages 1-5](assignment/finalproject_stages1_5.md) | CPH14a | — |
 | 35 | <ul><li>Final Project: Lab Time</li><li>pop-quiz</li></ul> | — | CPH14b | — |
-| 36 | Final Project: Lab Time | — | — | [Final Project Stages 1-5](assignment/finalproject_stages1_5.md) | 
+| 36 | Final Project: Lab Time | — | — | — | 
 | 37 | Final Project: Lab Time | — | stages 1–5 due COB taps M37 | [Final Project Stages 1-5](assignment/finalproject_stages1_5.md) | 
 | 38 | Discuss Sonar Stages 6–11 | [Final Project Stages 6-11](assignment/finalproject_stages6_11.md) | <ul><li>CPH16a</li><li>stages 6-11 due taps, sunday, Dec 6 lesson 39</li></ul> | [lesson 36 notetaker](L36-notetaker.pdf) | 
 | 39 | Final Project: Lab Time | <li>Final Project stages 6–11 due taps, Sunday, Dec 6</li> | CPH16b | [Final Project Stages 6-11](assignment/finalproject_stages6_11.md) |
