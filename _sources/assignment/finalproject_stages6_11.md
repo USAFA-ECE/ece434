@@ -1,7 +1,7 @@
 # Final Project, Stages 6 to 11
 
 # Assignment
-- [Final Project Assignment](Final_Project_assignment_v7.pdf) Stages 6-11 due BOC lesson 39.
+- [Final Project Assignment](Final_Project_assignment_v8.pdf) Stages 6-11 due taps, Dec 6.
 - [Sonar Processing Reading](sonar_processing_v7.pdf)
 - [Sonar Processing Block Diagram](sonar_block_v4.pdf)
 - [Sonar Processing Data Structures](sonar_data_structures.pdf)
