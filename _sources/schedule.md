@@ -45,7 +45,7 @@ This schedule is subject to change as appropriate.
 | 35 | Final Project: Lab Time | — | CPH14b | — |
 | 36 | <ul><li>Final Project: Lab Time</li><li>pop-quiz</li></ul> | — | — | — | 
 | 37 | Final Project: Lab Time | — | stages 1–5 due COB taps M37 | [Final Project Stages 1-5](assignment/finalproject_stages1_5.md) | 
-| 38 | Discuss Sonar Stages 6–11 | [Final Project Stages 6-11](assignment/finalproject_stages6_11.md) | <ul><li>CPH16a</li><li>stages 6-11 due taps, sunday, Dec 6 lesson 39</li></ul> | [lesson 36 notetaker](L36-notetaker.pdf) | 
+| 38 | Discuss Sonar Stages 6–11 | [Final Project Stages 6-11](assignment/finalproject_stages6_11.md) | <ul><li>CPH16a</li><li>stages 6-11 due taps, sunday, Dec 6 </li></ul> | [lesson 36 notetaker](L36-notetaker.pdf) | 
 | 39 | Final Project: Lab Time | <li>Final Project stages 6–11 due taps, Sunday, Dec 6</li> | CPH16b | [Final Project Stages 6-11](assignment/finalproject_stages6_11.md) |
 | 40 | <ul><li>Final Project Quiz</li><li>Lab time</li><li>Work on Presentation</li></ul> | quiz on overall Final Project (worth 2 quizzes) | <ul><li>study for quiz</li></ul> | — | 
 | 41 | Final Project: Team Presentations | — | Peer Eval due taps (on blackboard) | [Presentation Grading Criteria](assignment/Final_presentation_grading_criteria.pdf) |
