@@ -97,7 +97,7 @@ number along with the reason for your absence.
 
 ## Collaboration Policy and Generative AI Policy
 
-- Use of Generative AI (like ChatGPT) is prohibited for this class, except for specific assignments where it is allowed by your instructor.
+- Use of Generative AI (like ChatGPT) is prohibited for this class, except for specific assignments where it is allowed by your instructor. For example, For the DSP Hardware lab, you are allowed to Generative AI like ChatGPT or search engines, like google at GenAI level 1: Organizational / Explanatory use of GenAI.
 
 - To solve homework (CPH), the only authorized resource is your textbook and other class notes provided on the course Blackboard or Team’s site. You may work with any other cadet. For CPHs requiring MATLAB, the only additional online source you are allowed to use is the MathWorks website.
 
