@@ -16,25 +16,25 @@ sampcos(0.1,100,110);
 
 %Aliase demonstration
 %  f >= 2*Fs
-%  what is the minimum Fs for 2026 Hz?
+%  what is the minimum Fs for 2027 Hz?
 
 
 close all
 
 %  oversampled case;   sound ok?
 figure
-[x, Fs] = sampcos(2, 2026, 4*2026);
+[x, Fs] = sampcos(2, 2027, 4*2027);
 sound(x,Fs);
 %  critically-sampled case;   sound ok?
-[x, Fs] = sampcos(2, 2026, 2*2026);
+[x, Fs] = sampcos(2, 2027, 2*2027);
 sound(x,Fs);
 %  under-sampled case;   sound ok?
 figure
-[x, Fs] = sampcos(2, 2026, (3/2)*2026);
+[x, Fs] = sampcos(2, 2027, (3/2)*2027);
 sound(x,Fs);
 %  let f = Fs;   sound ok?  DC?
 figure
-[x, Fs] = sampcos(2, 2026, 2026);
+[x, Fs] = sampcos(2, 2027, 2027);
 sound(x,Fs);
 
 
